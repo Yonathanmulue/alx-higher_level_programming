@@ -1,4 +1,6 @@
 #!/usr/bin/python3
-for i in range(0, 99):
-    print(str(i).zfill(2), end=', ')
-print(str(99).zfill(2))
+for num in range(0, 100):
+    if num == 99:
+        print("{}".format(num))
+    else:
+        print("{:02}".format(num), end=", ")
