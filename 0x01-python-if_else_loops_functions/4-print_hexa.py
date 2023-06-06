@@ -1,3 +1,5 @@
 #!/usr/bin/python3
-for i in range(99):
+i = 0
+while i <= 98:
     print(str(i) + " = " + hex(i))
+    i += 1
